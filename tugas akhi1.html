@@ -1,0 +1,148 @@
+<html>
+ <head>
+    <link rel="stylesheet" href="tugas akhir.css">
+  <title>
+   Layanan Kami
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100">
+  <header class="bg-gray-800 text-white">
+   <div class="container mx-auto flex justify-between items-center py-4">
+    <div class="text-2xl font-bold">
+     LayananKami
+    </div>
+    <nav class="space-x-4">
+     <a class="hover:text-gray-400" href="#KONTAKKAMI">
+      Kontak
+     </a>
+     <a class="hover:text-gray-400" href="#Fitur">
+      Fitur
+     </a>
+     <a class="hover:text-gray-400" href="#CARAKERJA">
+      Cara Kerja
+     </a>
+     <a class="hover:text-gray-400" href="#Testimoni">
+      Testimoni
+     </a>
+     <a class="hover:text-gray-400" href="#galeri">
+      Galeri
+     </a>
+      <button><a class="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600" href="Tugas akhir1.html">
+        Halaman2
+       </a></button>
+    </nav>
+   </div>
+  </header>
+  <main class="relative">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTZLWUAzdeJc4PlI6PLtLzuwP_6kNkGazrnQ&s" class="w-full h-screen object-cover" height="1080" src="https://storage.googleapis.com/a1aa/image/ILffe39xvLRNlIWrfzrvZOfef0McVac27wQkm36K29Al1eirTA.jpg" width="1920"/>
+   <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
+    <h1 class="text-5xl font-bold mb-4">
+     Selamat datang di
+     <span class="text-orange-500">
+      Layanan Kami
+     </span>
+    </h1>
+    <p class="text-lg mb-8">
+     Menyediakan solusi terbaik untuk kebutuhan bisnis Anda.
+    </p>
+    <a class="bg-orange-500 text-white px-6 py-3 rounded hover:bg-orange-600" href="#">
+     Hubungi Kami
+    </a>
+   </div>
+  </main>
+            
+        <section class="form-section">  
+            <h2 class="text-center text-2xl font-bold mb-4" id="KONTAKKAMI">Kontak Kami</h2> 
+            <form id="dataForm">  
+                <label for="name">Nama</label>  
+                <input type="text" id="name" required>  
+      
+                <label for="email">Email</label>  
+                <input type="email" id="email" required>  
+      
+                <label for="status">Status</label>  
+                <select id="status">  
+                 <option value="Aktif">Aktif</option> 
+                 <option value="Tidak aktif">Tidak aktif</option>  
+                 <option value="Menunggu">Menunggu</option>   
+            </select>  
+      
+                <button type="button" onclick="addToTable()">Tambah ke Tabel</button>  
+            </form>  
+        </section>  
+      
+      
+        <section class="table-section">  
+            <h2 class="text-center text-2xl font-bold mb-4" id="Fitur">Tabel Data</h2>  
+            <table class="data-table " id="dataTable">
+                <thead>
+                  <tr>
+                    <th>ID</th>
+                    <th>Nama</th>
+                    <th>Email</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>
+        </section>  
+        <h2 class="text-center text-2xl font-bold mb-4">Fitur utama kami</h2>
+        <script src="tugas akhir.js"></script>
+
+        <section id="Fitur">
+            <nav class="MCH">
+                <ul>
+                    <li>Fitur 1: layanan berkualitas tinggi</li>
+                    <li>Fitur 2: Dukungan 24/7</li>
+                    <li>Fitur 3: Solusi yang dapat di sesuaikan</li>
+                    <li>Fitur 4: Harga terjangkau</li>
+                </ul>
+            </nav>
+        </section>
+
+        <h2 class="text-center text-2xl font-bold mb-4" id="CARAKERJA">Cara kerja</h2>
+        <div class="Hcm">
+            <ol>
+                <li>Langkah 1: Hubungi kami</li>
+                <li>Langkah 2: Diskusikan kebutuhan anda</li>
+                <li>Langkah 3: Dapatkan proposal khusus</li>
+                <li>langkah 4: Luncurkan proyek anda</li>
+            </ol>
+        </div>
+        <br>
+        <br>
+        <section class="Testi"> 
+            <h2 class="text-center text-2xl font-bold mb-4" id="Testimoni">Apa kata klien kami</h2>
+         <div class="Testi1"> 
+            <p><i>*Pengalaman kami dengan layanan ini sangakt luar biasa Tim sangat profesional dan dapat dianadalkan*</i></p><br> 
+            <p><i>-Alex Johson</i></p> 
+        </div> 
+        <div class="Testi2"> 
+            <p><i>*mereka melebihi harapan dalam hal segala hal sangat merekomendasikan layanan mereka*</i></p><br> 
+            <p><i>-Sarah Wiliams</i></p> 
+        </div> 
+        </section> 
+        <br> 
+        <br> 
+        <br> 
+        <section class="Gallarys"> 
+            <h2 class="text-center text-2xl font-bold mb-4" id="galeri">Galeri Karya Kami</h2>
+            <div class="Gallary-images"> 
+                <img src="image/images (1).jpg" alt=""> 
+                <img src="image/images (2).jpg" alt=""> 
+                <img src="image/images (3).jpg" alt=""> 
+                <img src="image/images (4).jpg" alt=""> 
+            </div> 
+        </section> 
+    <br> 
+        <section class="Last"> 
+            <div> 
+                <p>&copyHalamanUtamaKami Semua hak dilindungi.</p> 
+            </div> 
+        </section> 
+    </div>
+    

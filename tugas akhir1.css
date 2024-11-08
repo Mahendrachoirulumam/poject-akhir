@@ -1,0 +1,171 @@
+.form-section,  
+.table-section {  
+    max-width: 600px;  
+    margin: 30px auto;  
+    padding: 20px;  
+    background-color: #f5f5f5;  
+    border-radius: 8px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+}  
+  
+h2 {  
+    text-align: center;  
+    margin-bottom: 20px;  
+    color: #333;  
+}  
+  
+form label {  
+    display: block;  
+    margin-bottom: 5px;  
+    font-weight: bold;  
+}  
+  
+form input,  
+form select,  
+form button {  
+    width: 100%;  
+    padding: 10px;  
+    margin-bottom: 15px;  
+    border: 1px solid #ddd;  
+    border-radius: 5px;  
+}  
+  
+form button {  
+    background-color: #ff7f00;  
+    color: white;  
+    font-weight: bold;  
+    cursor: pointer;  
+}  
+  
+form button:hover {  
+    background-color: #e66f00;  
+}  
+  
+table {  
+    width: 100%;  
+    border-collapse: collapse;  
+    margin-top: 20px;  
+}  
+  
+table,  
+th,  
+td {  
+    border: 1px solid #ddd;  
+}  
+  
+th,  
+td {  
+    padding: 10px;  
+    text-align: center;  
+}  
+  
+th {  
+    background-color: #ff7f00;  
+    color: white;  
+}  
+.lol {  
+    text-align: center;  
+    font-family: Arial, sans-serif;  
+}  
+.bug {  
+    text-align: center;  
+    padding: 5px;  
+}  
+.kol {  
+    text-align: center;  
+    font-family: Arial, Helvetica, sans-serif;  
+}  
+.pol {  
+    text-align: center;  
+}
+
+.MCH ul {
+ list-style-type: disc;
+ padding-left: 500px;
+ text-align: left;
+}
+.MCH ul li {
+    margin: 10px;
+    font-size: medium ;
+}
+
+.Hcm ol {
+    list-style-type: decimal;
+    padding-left: 500px;
+    text-align: left;
+   }
+.Hcm ol li {
+       margin: 10px;
+       font-size: medium ;
+   }
+
+.Testi{ 
+    background-color: #f5f5f5; 
+    text-align: center; 
+    display: flex; 
+    margin-bottom: 2rem 0; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 2rem; 
+} 
+ 
+.Testi h2{ 
+    margin-bottom: 1rem; 
+    color: black; 
+    font-size: 24px; 
+} 
+ 
+.Testi1{ 
+margin: 1rem; 
+padding: 1rem; 
+border-left: 4px solid orange; 
+width: 40%; 
+margin: auto; 
+color: black; 
+} 
+ 
+.Testi2{ 
+margin: 1rem; 
+padding: 1rem; 
+border-left: 4px solid orange; 
+width: 40%; 
+margin: auto; 
+color: black; 
+} 
+ 
+.Gallarys{ 
+    background-color: #f5f5f5; 
+    margin-bottom: 1rem; 
+} 
+ 
+.Gallarys h2{ 
+    text-align: center; 
+    color: black; 
+    margin-bottom: 1rem; 
+} 
+ 
+.Gallary-images{ 
+display: flex; 
+justify-content: center; 
+border-radius: 5px; 
+gap: 1rem; 
+} 
+ 
+.Gallary-images img{ 
+width: 200px; 
+height: auto; 
+border-radius: 5px; 
+} 
+ 
+.Last{ 
+    display: flex; 
+    background-color: #333; 
+    text-align: center; 
+    height: 50px; 
+    width: auto; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 15px; 
+    color: white; 
+}
+
